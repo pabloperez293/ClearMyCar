@@ -1,0 +1,29 @@
+// scss-docs-start theme-color-variables
+$primary: #1aeab6 ;
+
+.bgGreen{
+    background-color: #1aeab6;
+
+}
+body{
+    height: 200px;
+    background: linear-gradient(90deg, #1aeab6 50%, white 50%)
+}
+
+.img-fluid{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.py-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-right: 135px;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
