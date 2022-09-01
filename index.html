@@ -13,46 +13,53 @@
 <body>
 
 
-    <div class="container w-75 mt-5 rounded shadow">
+    <div class="container w-75 pt-0 mt-1 rounded shadow-lg">
         
-            <div class="row align-items-stretch">
-                <div class="col bgGreen py-5 d-none d-sm-block">
-                    <div class="img-fluid bgGreen">
+            <div class="row ">
+                <div class="col bgGreen py-5 d-none d-sm-block" style="
+                    display: flex !important;
+                    flex-direction: column;
+                    justify-content: center;">
+                    <div class="img bgGreen">
                         <img src="img/logo.png" class="w-25 rounded d-block">
                     </div>
                     
-                    <h2 class="fw-bold text-center">CleanMyCar</h2>    
+                    <h3 class="fw-bold text-center">CleanMyCar</h3>    
                     <p class="text-center m-0">India's first waterless </p>
                     <p class="text-center m-0"> car cleaning company</p>     
                 </div>
-                <div class="col bg-white p-4 rounded-end">
+                <div class="col-12 col-md-8  bg-white py-4 rounded-end" >
                     <div class="text-end">
                         <p>need help?</p>
                     </div>    
-                    <h2 class="fw-bold text-center py-4">Log in</h2>
 
-                    <!-- login  -->
-                    <form action="#">
-                        <div class="mb-4">
-                            <label for="email" class="form-label fw-bold">Email</label>
-                            <input type="email" class="form-control " name="email" placeholder="joel@email.com"></input>
-                        </div>
+                    <div class="container p-4 caja">
 
-                        <div class="mb-4">
-                            <label for="password" class="form-label fw-bold">Password</label>
-                            <input type="password" class="form-control " name="password" placeholder="Enter your Password"></input>
-                            
-                            <div class="text-end">
-                                <p class="fw-bold">forgot password?</p>
-                            </div> 
-                        </div>
+                        <h3 class="fw-bold text-center ">Log in</h3>
 
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-primary">Login</button>
-                        </div>
-
-                    </form>
-
+                        <!-- login  -->
+                        <form action="#">
+                            <div class="mb-4 m-5">
+                                <label for="email" class="form-label fw-bold">Email</label>
+                                <input type="email" class="form-control " name="email" placeholder="joel@email.com"></input>
+                            </div>
+    
+                            <div class="mb-4 m-5">
+                                <label for="password" class="form-label fw-bold">Password</label>
+                                <input type="password" class="form-control " name="password" placeholder="Enter your Password"></input>
+                                
+                                <div class="text-end">
+                                    <p class="fw-bold">forgot password?</p>
+                                </div> 
+                            </div>
+    
+                            <div class="d-grid m-5">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+    
+                        </form>
+    
+                    </div>
                 </div>
             </div>
 
