@@ -10,8 +10,12 @@ img {
 }
 
 body {
-  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(90deg, #1aeab6 36%, white 36%);
+  height: 250px;
+  min-height: 100vh;
 }
 
 .img {
@@ -23,6 +27,10 @@ body {
 .caja {
   margin: 2rem;
   padding: 10px 50px 20px;
+}
+
+.player {
+  background: linear-gradient(90deg, #1aeab6 36%, white 36%);
 }
 
 /*!
